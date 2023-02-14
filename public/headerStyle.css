@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
   overflow-x: hidden ;
+
+
 }
 
 header {
@@ -11,6 +13,7 @@ header {
   background-color: black;
   text-align: center;
   height: 8em;
+  overflow-y: hidden;
 
 }
 

@@ -2,6 +2,7 @@
 body{
     background-color: black ;
 
+
 }
 .containerPrincipal{
     width: 100%;
@@ -13,17 +14,20 @@ body{
 }
 .first-section{
     display: inline-block;
-    width: 46%
+    width: 46%;
+
    
 }
 .escavadeira{
     position: absolute;
     display: flex;
+
 }
    .escavadeira img{
     margin-left: -12em;
     margin-top: -110px;
      z-index: 2;
+
    }
    
 .bg{
@@ -36,6 +40,8 @@ body{
     opacity: 0.4;
     background-color: #fd5118;
     z-index: 1;
+    overflow-y: hidden;
+
     }
 
     .second-section{
@@ -68,4 +74,9 @@ border-radius: 100%;
         font-weight: bold;
      
     }   
+    .container2{
+       color: white;
+        
+    }
+
 
