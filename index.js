@@ -20,6 +20,11 @@ app.get('/',(requeste,response)=>{
 response.render("home")
 });
 
+app.get('/servicos',(requeste,response)=>{
+    response.render("servicos")
+    });
+    
+
 app.listen(port,()=>{
     console.log('Conectado');
 });

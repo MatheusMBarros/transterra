@@ -1,7 +1,7 @@
 
 body{
     background-color: black ;
-
+width: 100%;
 
 }
 .containerPrincipal{
@@ -80,6 +80,7 @@ body{
        width:100%;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
+        overflow-y: hidden;
 
     }
    .bgImage img{
@@ -89,12 +90,53 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    opacity: 0.30;
+    z-index: 1;
+   }
+   .quemSomosTexto{
+    width: 60%; 
    }
 
-   .quemSomosTexto h2 p{
+   .quemSomosTexto p ,h2{
     display: flex;
-   
+    text-align: center;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
    }
+
+   .quemSomosTexto p { 
+    margin-top:200px;
+    width: 50%;
+    text-align: left;
+    margin-left: 40px;
+
+}
+
+.quemSomosTexto h2 { 
+    margin-left: 100px;
+    margin-bottom: 40px;
+    font-size: 100px;
+}
+.fotoFundador{
+    width: 50%;
+    display: flex;
+    position: absolute;
+    margin-left: 1000px;    
+    z-index: 2;
+}
+
+.fotoFundador img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin-top: 100px;
+  border: 3px solid black;
+ 
+}
+
+
   
  
 

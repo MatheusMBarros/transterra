@@ -1,7 +1,7 @@
 {
     // Workbench
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Dracula Pro",
+    "workbench.colorTheme": "Dracula Pro (Van Helsing)",
     "workbench.editor.labelFormat": "short",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.untitled.hint": "hidden",
