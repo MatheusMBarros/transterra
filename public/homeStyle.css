@@ -1,10 +1,10 @@
-
-body{
-    background-color: black ;
-width: 100%;
+body {
+    background-color: black;
+    width: 100%;
 
 }
-.containerPrincipal{
+
+.containerPrincipal {
     width: 100%;
     display: flex;
     height: 600px;
@@ -12,25 +12,28 @@ width: 100%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.first-section{
+
+.first-section {
     display: inline-block;
     width: 46%;
 
-   
+
 }
-.escavadeira{
+
+.escavadeira {
     position: absolute;
     display: flex;
 
 }
-   .escavadeira img{
+
+.escavadeira img {
     margin-left: -12em;
     margin-top: -110px;
-     z-index: 2;
+    z-index: 2;
 
-   }
-   
-.bg{
+}
+
+.bg {
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -42,48 +45,52 @@ width: 100%;
     z-index: 1;
     overflow-y: hidden;
 
-    }
+}
 
-    .second-section{
-        display: block;  
-        width: 50%;
-        float:right;
-    }
+.second-section {
+    display: block;
+    width: 50%;
+    float: right;
+}
 
-    
-   .square{
+
+.square {
     display: inline-block;
     height: 200px;
-    width:5px;
-    background-color:white;
+    width: 5px;
+    background-color: white;
     margin-top: 200px;
     border-radius: 100%;
 
-    }
-    .texto{
-  
-        color: white;
-        width: 600px;
-        margin-left: 50px;
-       margin-top: -210px;
-       
-    }
-    .texto > p{
-        font-size: 20px;
-        padding-bottom: 50px;
-        font-weight: bold;
-     
-    }   
-    .container2{
-       color: white;
-       height: 600px;
-       width:100%;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        overflow-y: hidden;
+}
 
-    }
-   .bgImage img{
+.texto {
+
+    color: white;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: -210px;
+
+}
+
+.texto>p {
+    font-size: 25px;
+    padding-bottom: 50px;
+    font-weight: bold;
+
+}
+
+.container2 {
+    color: white;
+    height: 600px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow-y: hidden;
+
+}
+
+.bgImage img {
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -92,51 +99,72 @@ width: 100%;
     display: flex;
     opacity: 0.30;
     z-index: 1;
-   }
-   .quemSomosTexto{
-    width: 60%; 
-   }
+}
 
-   .quemSomosTexto p ,h2{
+.quemSomosTexto {
+    width: 60%;
+}
+
+.quemSomosTexto p,
+h2 {
     display: flex;
     text-align: center;
     margin-top: 40px;
     position: absolute;
     z-index: 2;
     justify-content: center;
-   }
+}
 
-   .quemSomosTexto p { 
-    margin-top:200px;
+.quemSomosTexto p {
+    margin-top: 200px;
     width: 50%;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
 
 }
 
-.quemSomosTexto h2 { 
+.quemSomosTexto h2 {
     margin-left: 100px;
     margin-bottom: 40px;
     font-size: 100px;
+    justify-content: center;
+
 }
-.fotoFundador{
+
+.fotoFundador {
     width: 50%;
     display: flex;
     position: absolute;
-    margin-left: 1000px;    
+    margin-left: 1250px;
     z-index: 2;
 }
 
-.fotoFundador img{
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
-  margin-top: 100px;
-  border: 3px solid black;
- 
+.fotoFundador img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 100px;
+    border: 3px solid black;
+
 }
 
 
-  
- 
+footer {
+    width: 100%;
+    height: 60px !important;
+    background-color: #fd5118;
+    color: white;
+    text-align: center;
+    font-size: 10px !important;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    overflow-y: hidden;
+}
 
+.info {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
