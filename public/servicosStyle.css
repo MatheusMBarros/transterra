@@ -12,14 +12,29 @@ body {
   color: #ea5b0c;
 }
 
+h1{
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  background-color: #ea5b0c;
+  border-radius: 5px;
+  border: 1px solid #ea5b0c;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #ea5b0c;
+  padding: 10px;
+    
+}
+
 .container{
   width: 100%;
   height: 100%;
-  display: inline-block;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
- 
 }
 .servicoSingle {
   display: inline-block;
@@ -37,10 +52,6 @@ body {
 
 }
 
-
-
-
-
 .fotoServico {
   width: 100%;
   display: inline-block;
@@ -53,7 +64,8 @@ body {
 .servicoSingle h3 {
   display: flex;
   position: absolute;
-  padding-bottom: 50px;
+  text-align: center;
+
   font-size: 40px;
 }
 
@@ -72,4 +84,23 @@ body {
   padding: 0 auto;
   color: white;
   font-weight: bold;
+  margin: 20px 0;
+}
+
+.tresServicos{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.doisServicos{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
 }
