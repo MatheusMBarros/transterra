@@ -60,15 +60,12 @@ h1{
   margin-right: auto; 
 
 }
-
 .servicoSingle h3 {
   display: flex;
   position: absolute;
   text-align: center;
-
   font-size: 40px;
 }
-
 .fotoServico img {
   height: 300px;
   width: 300px;

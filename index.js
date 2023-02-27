@@ -1,6 +1,6 @@
 const http = require('http');
 const express = require('express');
-const hostname = '127.0.0.1'
+const hostname = 'localhost';
 const path = require('path');
 const port = 3000;
 const app = express();
@@ -22,8 +22,16 @@ response.render("home")
 
 app.get('/servicos',(requeste,response)=>{
     response.render("servicos")
-    });
-    
+});
+
+app.get('/maquinas',(requeste,response)=>{
+    response.render("maquinas")
+});
+
+app.get("/localizacao",(requeste,response)=>{
+    response.render("localizacao")
+
+})
 
 app.listen(port,()=>{
     console.log('Conectado');
