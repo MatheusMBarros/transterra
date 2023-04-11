@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+  width: 100%;
+  color: #ea5b0c;
+
+}
+
+h1{
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  background-color: #ea5b0c;
+  border-radius: 5px;
+  border: 1px solid #ea5b0c;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #ea5b0c;
+  padding: 10px;
+    
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.servicoSingle {
+  overflow: hidden;
+  padding-left: 20px;
+  width: 500px;
+  background-color:#242424;
+  border-radius: 30px;
+  box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.2);
+  border: 3px solid #ffff;
+  margin-bottom: 20px;
+  margin:30px;
+  border-radius: 10px;
+  
+
+}
+
+.fotoServico {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+.servicoSingle h3 {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+}
+.fotoServico img {
+  margin-top: 60px;
+  height: 300px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20%;
+  border: 6px solid #ff5900;
+}
+.textoServico {
+  padding: 0 auto;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 90%;
+  text-align: justify;
+}
+
+.tresServicos{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.doisServicos{
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
+}
+@media screen and (max-width: 479px){
+  h1{
+    font-size: 80px;
+  }
+  
+
+  .tresServicos{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .doisServicos{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  
+}
